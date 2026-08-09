@@ -11,12 +11,14 @@ load_dotenv()
 
 COLLECTION_NAME = "campus_faq"
 SIMILARITY_THRESHOLD = 0.75
+SIMILARITY_GRACE_FLOOR = 0.65
 MAX_DIRECT_ANSWER_WORDS = 20
 FALLBACK_ANSWER = "I'm not sure about that one — ask a senior or check the orientation desk."
 
 _qdrant = QdrantClient(
     url=os.getenv("QDRANT_URL"),
     api_key=os.getenv("QDRANT_API_KEY"),
+    timeout=120,
 )
 _qdrant.get_collections()
 _embedding_model = TextEmbedding()
@@ -39,14 +41,38 @@ def answer_question(question: str) -> str:
     )
     print(f"  [timing] qdrant search: {time.perf_counter() - t:.2f}s")
 
-    if not result.points or result.points[0].score < SIMILARITY_THRESHOLD:
+    if not result.points or result.points[0].score < SIMILARITY_GRACE_FLOOR:
         return FALLBACK_ANSWER
 
     best = result.points[0]
     print(f"  [info] matched FAQ (score {best.score:.4f})")
 
+    in_grace_band = best.score < SIMILARITY_THRESHOLD
+    if in_grace_band:
+        print(f"  [info] score below {SIMILARITY_THRESHOLD}, asking LLM to verify match")
+        verify_prompt = (
+            "You are a campus guide. The user asked a question, and the "
+            "closest FAQ entry is shown below. Reply with ONLY 'yes' or 'no' "
+            "— does the FAQ entry actually answer the user's question? "
+            "Consider synonyms and rephrasing (e.g. 'multipurpose hall' "
+            "means the same as 'MPH multi purpose hall').\n\n"
+            f"User question: {question}\n"
+            f"FAQ question: {best.payload['question']}"
+        )
+        response = _gemini.models.generate_content(
+            model="gemma-4-26b-a4b-it",
+            contents=verify_prompt,
+            config=genai.types.GenerateContentConfig(
+                max_output_tokens=10,
+                thinking_config=genai.types.ThinkingConfig(thinking_level="minimal"),
+            ),
+        )
+        if response.text.strip().lower().startswith("no"):
+            print("  [info] LLM says match is wrong, falling back")
+            return FALLBACK_ANSWER
+
     faq_answer = best.payload["answer"]
-    if _can_use_directly(faq_answer):
+    if not in_grace_band and _can_use_directly(faq_answer):
         print("  [info] FAQ answer short + clean, skipping LLM")
         return faq_answer
 
