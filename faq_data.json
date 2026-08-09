@@ -1,26 +1,90 @@
 [
-  {
-    "question": "Where is the administration block located?",
-    "answer": "The administration block is the building at the main entrance, behind the parking lot."
-  },
-  {
-    "question": "What are the library timings?",
-    "answer": "The library is open from 9:00 AM to 8:00 PM on weekdays and 10:00 AM to 5:00 PM on weekends."
-  },
-  {
-    "question": "How do I reach the hostel from the academic block?",
-    "answer": "Walk straight past the central cafeteria and turn right at the sports ground; the hostel gates are about 5 minutes away."
-  },
-  {
-    "question": "Where can I get my student ID printed?",
-    "answer": "Student ID cards are issued at the records office, ground floor of the administration block."
-  },
-  {
-    "question": "Which building hosts the computer science department?",
-    "answer": "The computer science department is on the third floor of the academic block, block C."
-  },
-  {
-    "question": "Is there a stationery shop on campus?",
-    "answer": "Yes, the stationery shop is next to the central cafeteria and is open from 8:00 AM to 7:00 PM."
-  }
-]
+    {
+      "question": "What are the key clubs or societies at the institute that students can get involved in?",
+      "answer": "Life outside the classroom at the institute is vibrant and dynamic, driven largely by two main categories of student organizations:\n• Technical Societies\n• Non-Technical (Cultural & Literary) Societies"
+    },
+    {
+      "question": "What are the technical societies/clubs?",
+      "answer": "There are 16 technical societies in the institute which includes:\n• Nibble Computer Society (NCS): A premier coding and software development club focusing on competitive programming, web development, and hackathons.\n• Google Developer Groups (GDG): A developer community training students in cutting-edge tech like cloud computing, machine learning, and Android development.\n• Microsoft Mobile Innovation Labs (MMIL): A prominent tech group centered around software engineering, app building, and emerging technologies.\n• Quanta Society (ECE): The core technical society for Electronics and Communication Engineering, specializing in embedded systems, IoT, and robotics.\n• Team Albatross 8: A multidisciplinary aerospace society that designs and builds advanced aircraft and drone systems for competitive challenges.\n• SAE Collegiate Club: An automotive engineering club where students design and fabricate high-performance vehicles for national racing events.\n• Departmental Technical Clubs: Societies like Yantrashilpa (Mechanical), ACE (Civil), and Oorjita (Electrical) that host core workshops and technical events.\n• Entrepreneurship Development Cell (EDC): Fosters startup culture, business pitching, and entrepreneurial thinking through bootcamps and ideathons.\nSome more technical clubs include-ROBOIQ society, PIXELLENCE, IEEE."
+    },
+    {
+      "question": "What are the non-technical society/clubs?",
+      "answer": "There are 13 non-technical societies in the institute which includes:\n• Verve: The dynamic dance and music society that leads major cultural performances and campus events.\n• Illuminati: The official dramatics society, widely known for thought-provoking street plays (nukkad natak) and stage performances.\n• Vyom: The official Hindi literary and debating society, fostering linguistic expression and rhetoric.\n• Lingua Franca: The English literary society that hones creative writing, quizzing, and public speaking skills.\nSome more non-technical clubs includes-Akshargyaan, Divercity, Impetus, inkspire, kalakriti, origo, photography and film club, quizzoc, YFAC."
+    },
+    {
+      "question": "What is grading system in B-tech?",
+      "answer": "If you score between 90 and 100 marks, you achieve an Outstanding level, which earns an S grade worth 10 grade points.\nA score of 75 to 89 is Excellent, giving you an A grade with 9 points.\nScoring in the 66 to 74 range is considered Very Good, earning a B+ grade and 8 points, while a score from 56 to 65 gets a good rating, which corresponds to a B grade and 7 points.\nOn the lower end, scoring 50 to 55 is marked as Average, resulting in a D grade worth 5 points.\nA score between 45 and 49 is considered Poor, yielding an E grade with 4 points.\nFinally, anything below 45 marks results in a Fail, which is recorded as an F grade with 0 grade points."
+    },
+    {
+      "question": "How to calculate SGPA and CGPA?",
+      "answer": "To calculate your SGPA, you multiply the credit value of each course by the grade points you earned in that course to find its credit points. Then, you divide the total credit points across all courses by your total number of credits.\nFor example, Course 1 has 5.5 credits with a B+ grade worth 8 points, giving 44 credit points.\nCourse 2 has 4 credits with a C grade worth 6 points, yielding 24 credit points.\nCourse 3 has 5 credits with a B grade worth 7 points, amounting to 35 credit points.\nCourse 4 has 3 credits with an S grade worth 10 points, adding 30 credit points.\nLastly, Course 5 has 3 credits with an F grade worth 0 points, which contributes 0 credit points.\nSumming these up gives a total of 133 credit points over 20.5 total credits.\nDividing 133 by 20.5 results in an SGPA of 6.48.\nYour CGPA is calculated in the exact same manner at the end of the program, but by combining the overall credit points and credits accumulated across all semesters.\nIf you achieve a grade point of 7.75 and above, you are awarded First Class with Distinction (FCD). If your score falls between 6.75 and 7.74, you earn a First Class (FC) designation. A score ranging from 5.25 to 6.74 secures a Second Class (SC).\nTo convert your overall CGPA into an equivalent percentage, the university uses the following formula:\nPercentage marks =(CGPA-0.75) × 10"
+    },
+    {
+      "question": "What is the attendance requirement for B-tech?",
+      "answer": "To be eligible for the 1st and 2nd Continuous Internal Evaluation (CIE) tests, you must maintain a minimum of 60% attendance in each registered course, with attendance for the second test calculated between the first and second test periods.\nFor the End Semester Examination (ESE), you need a minimum of 85% attendance throughout the semester in each course.\nHowever, there is an attendance toleration of up to 15% that can be granted for valid reasons, provided your department recommends it. If you fail to meet these attendance requirements, the primary consequence is that you become ineligible to appear for the End Semester Examinations.\nFinally, if you miss internal tests due to valid emergencies or officially representing the university, an additional CIE may be allowed, provided you still meet the overall semester attendance criteria."
+    },
+    {
+      "question": "Where is the library?",
+      "answer": "The central library is located right inside the campus in C Block. On campus, the library is housed within the main academic building complex, easily accessible near the central admin block and academic departments."
+    },
+    {
+      "question": "Give the direction of library from gate 1",
+      "answer": "Enter Gate 1: Walk straight down the main entrance driveway, past the security kiosk, heading toward the central campus area.\nHead to AB 1: Continue straight along the main paved walkway toward AB - 1, which is directly ahead near the central administrative section and front lawn.\nEnter AB - 1: Enter the main entrance of AB - I and head toward the central staircase or elevators.\nReach Library: Take the stairs or elevator to the upper floor level (2nd/3rd floor wing), where the main entrance and reading halls of the library are located."
+    },
+    {
+      "question": "What are the library timings?",
+      "answer": "For the Reference Section, it operates from 8:30 AM to 8:00 PM from Monday to Friday, and on Saturdays, it is open from 8:30 AM to 4:30 PM.\nFor the Lending Section, the timing is from 9:30 AM to 5:30 PM from Monday to Friday, and on Saturdays, it remains open from 9:30 AM to 1:30 PM.\nIf you are looking for the Pharmacy Library, it runs from 9:30 AM to 5:30 PM from Monday to Friday, and on Saturdays, it is open from 8:30 AM to 1:00 PM.\nPlease note that all library sections remain closed on Sundays and official holidays."
+    },
+    {
+      "question": "What are the borrowing privileges?",
+      "answer": "The library's borrowing privileges depend on your specific user category, though the return deadline is the same across the board.\nIf you are a B. Tech student, a Master's student in any program, or a Research Scholar, you are allowed to borrow up to 6 books at a time. However, if you are enrolled in the Diploma in Pharmacy program, your borrowing limit is set to 2 books.\nRegardless of your category or how many books you are allowed to check out, the standard issue period for all borrowed books is exactly 15 days."
+    },
+    {
+      "question": "What are the academic expectations?",
+      "answer": "~Active Participation & Presence\nShow up on time, take good notes, and stay engaged during class discussions.\nGo beyond the basics speak up in seminars and actively contribute to group work.\nKeep your phone and laptop focused strictly on coursework, and always respect different opinions in the room.\n~Independent & Proactive Learning\nTake ownership of your learning by keeping an eye on your course syllabus.\nDo your assigned readings and prep work before you step into the classroom.\nIf you start to struggle, don't wait-reach out to professors during office hours, talk to your TAs, or use the campus learning centre early on.\n~Deadlines & Accountability\nTurn in high-quality work right on time, because unexcused late submissions will cost you marks.\nStick to the required formatting rules, whether that's APA, Harvard, or MLA style.\nIf a genuine emergency comes up, reach out and request an extension as early as possible.\n~Uncompromising Academic Integrity\nDo your individual assignments entirely on your own without unauthorized help.\nCite your sources properly so you give full credit to other people's ideas and avoid plagiarism.\nCheating, making up data, or misusing Al tools is strictly against the rules and violates the university code of conduct."
+    },
+    {
+      "question": "What are the unfair means (UFM) categories and penalties?",
+      "answer": "~ Minor Misconduct\nExamples: Disobeying the invigilator or talking after a warning.\nPenalty: You get a warning first; if repeated, you receive zero marks or an F grade.\n~Moderate Misconduct\nExamples: Having chits with you or disclosing your identity on the paper.\nPenalty: You get zero marks or an F grade in that specific paper.\n~Major Cheating\nExamples: Copying from material or a peer, or exchanging answer scripts.\nPenalty: You get zero marks in that paper plus zero marks in your two lowest-scoring papers.\n~Severe Disruption\nExamples: Threatening staff members or bringing a pre-written answer script.\nPenalty: You get zero marks in all theory papers for that semester.\n~Very Serious Act\nExamples: Running off with the answer booklet or helping someone else cheat.\nPenalty: You get zero marks in all theory and practical exams for that semester.\n~Criminal Offence\nExamples: Possessing weapons or physically assaulting staff.\nPenalty: You get zero marks in all papers for the entire year and must repeat the year.\n~Carryover UFM\nExamples: Using bulk cheating material during a carryover exam.\nPenalty: You get zero marks in that carryover paper and are barred for 1 year.\n~Special Others\nExamples: Any other unlisted offense.\nPenalty: The exact penalty is decided directly by the Examination Committee."
+    },
+    {
+      "question": "How is the programme credits break down?",
+      "answer": "Regular Students\nDuration: 4 Years (8 Semesters)\nB. Tech Credits: 166 credits required\nB. Pharm Credits: 193 credits required\nLateral Entry Students\nDuration: 3 Years (6 Semesters)\nB. Tech Credits: 123 credits required\nB. Pharm Credits: 146 credits required\nKey System\nThe university officially follows the Choice-Based Credit System (CBCS) across these programs."
+    },
+    {
+      "question": "How the Assessment Structure breaks down?",
+      "answer": "Continuous Internal Evaluation (CIE)\nDetails: This takes place throughout the semester through regular tests and internal events like quizzes, assignments, seminars, case studies, or mini-projects.\nWeightage: Counts for 40% of your final score in both B. Tech and B.Pharm.\nEnd Semester Evaluation (ESE)\nDetails: Conducted at the end of the semester for core and elective theory courses through written examinations.\nWeightage: Counts for 60% of your final score in both B. Tech and B.Pharm."
+    },
+    {
+      "question": "What is the end semester examination schedule?",
+      "answer": "B. Tech Schedule\nOdd Semesters (I, III, V & VII):\nRegular candidates write exams in November / December.\nFailed candidates write re-exams in May / June.\nEven Semesters (II, IV, VI & VIII):\nRegular candidates write exams in May / June.\nFailed candidates write re-exams in November/December.\nB. Pharm Schedule\nOdd Semesters (I, III, V & VII):\nRegular candidates write exams in November / December.\nFailed candidates write re-exams in January / February.\nEven Semesters (II, IV, VI & VIII):\nRegular candidates write exams in May / June.\nFailed candidates write re-exams in July / August."
+    },
+    {
+      "question": "Where is academic block 1? Provide direction from gate 1.",
+      "answer": "Upon entering the main gate of the campus, Academic Block 1 (AB-1) is situated near the central administrative building and primary academic quad.\nTo walk from Gate no. 1 to Academic Block 1 (AB-1):\nEnter the Campus: Cross the security desk at Gate no. 1 (the main entrance facing the main road).\nFollow the Main Pathway: Walk straight ahead down the central paved driveway.\nPass the Front Lawn: Continue straight as you pass the main green lawns and landscaping on your side.\nArrive at AB-1: Academic Block 1 is located directly in front of you near the central administrative section and primary quad of the campus."
+    },
+    {
+      "question": "How many academic blocks are there?",
+      "answer": "The campus features 5 main academic blocks spread across its 28-acre campus:\nAcademic Block 1 (AB-1): Houses core administrative offices, classrooms, and primary departmental facilities.\nAcademic Block 2 (AB-2): Contains key departmental laboratories (such as electrical, graphics, and computer labs) and lecture rooms.\nAcademic Block 3 (AB-3): Houses additional engineering departments, specialized labs, and lecture halls.\nAcademic Block 4 & 5 (AB-4 & AB-5): Accommodate specialized program departments, research wings, and additional academic facilities."
+    },
+    {
+      "question": "Where is academic block 2? Provide direction from gate 1.",
+      "answer": "Gate 1 to AB-2\nEnter Gate 1 and walk straight down the main avenue.\nPass the main front lawn toward the central academic building.\nWalk past AB-1; AB-2 is right next to it along the main walkway."
+    },
+    {
+      "question": "Where is MPH (multi purpose hall) from gate 1?",
+      "answer": "Gate 1 to MPH Hall (Brief Route):\nEnter Gate 1 and walk straight down the main academic road.\nPass AB-1, AB-2, and AB-3 toward the back section of the campus.\nHead past the central quad toward the sports field and hostel area; MPH HALL is on your right near the sports ground."
+    },
+    {
+      "question": "Where is academic block 3? Provide direction from gate 1",
+      "answer": "Gate 1 to AB-3\nEnter Gate 1 and walk straight down the main road.\nWalk past AB-1 and AB-2 along the main pathway.\nContinue straight past the central quad; AB-3 is right next to AB-2."
+    },
+    {
+      "question": "Where is academic block 4 and 5? Provide direction from gate 1",
+      "answer": "Enter Gate 1: Walk straight down the main internal pathway past the front lawns.\nFollow the Central Corridor: Pass AB - 1, AB - 2, and AB-3 along the main walkway heading toward the inner section of the campus.\nArrive at AB-4 & AB-5: Continue straight toward the rear academic complex near the sports field/hostel area. AB-4 and AB-5 are situated directly adjacent to this inner academic wing."
+    },
+    {
+      "question": "Where is amenities shop on campus?",
+      "answer": "Enter Gate 1: Walk straight down the main entrance path past the front lawn.\nHead to AB-1: Go directly toward Academic Block 1 (AB-1).\nArrive at the ATM; besides ATM there is an amenities shop"
+    }
+  ]

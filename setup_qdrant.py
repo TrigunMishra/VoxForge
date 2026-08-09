@@ -11,11 +11,12 @@ load_dotenv()
 QDRANT_URL = os.getenv("QDRANT_URL")
 QDRANT_API_KEY = os.getenv("QDRANT_API_KEY")
 COLLECTION_NAME = "campus_faq"
+SOURCE_FILE = "faq_expanded.json"
 
 if not QDRANT_URL or not QDRANT_API_KEY:
     raise SystemExit("Set QDRANT_URL and QDRANT_API_KEY in your .env file first.")
 
-client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY)
+client = QdrantClient(url=QDRANT_URL, api_key=QDRANT_API_KEY, timeout=120)
 
 embedding_model = TextEmbedding()
 
@@ -30,18 +31,25 @@ client.create_collection(
 )
 print(f"Created collection '{COLLECTION_NAME}' (dimension {dimension})")
 
-with open("faq_data.json", "r", encoding="utf-8") as f:
+with open(SOURCE_FILE, "r", encoding="utf-8") as f:
     faqs = json.load(f)
 
 points = []
-for idx, (embedding, faq) in enumerate(zip(embedding_model.embed([q["question"] for q in faqs]), faqs)):
-    points.append(
-        PointStruct(
-            id=idx,
-            vector=embedding,
-            payload={"question": faq["question"], "answer": faq["answer"]},
+point_id = 0
+for faq in faqs:
+    variants = faq.get("variants", [faq["question"]])
+    for embedding in embedding_model.embed(variants):
+        points.append(
+            PointStruct(
+                id=point_id,
+                vector=embedding,
+                payload={
+                    "question": faq["question"],
+                    "answer": faq["answer"],
+                },
+            )
         )
-    )
+        point_id += 1
 
 client.upsert(collection_name=COLLECTION_NAME, points=points)
-print(f"Indexed {len(points)} FAQs into '{COLLECTION_NAME}'")
+print(f"Indexed {len(points)} FAQ variants into '{COLLECTION_NAME}'")
