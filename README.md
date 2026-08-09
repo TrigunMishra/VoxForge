@@ -1,6 +1,4 @@
-# VoxForge
-
-ScrapWorks' submission to the Starforge hackathon
+# Campus Voice Assistant
 
 A voice-powered campus guide: speak a question, get a spoken answer. Built with Python + Gradio, using Google AI (transcription + LLM), Qdrant (vector search), and Rime (text-to-speech).
 
