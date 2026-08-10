@@ -22,6 +22,8 @@ RIME_HEADERS = {
     "Accept": "audio/mpeg",
 }
 RIME_SAMPLE_RATE = 44100
+RIME_EN_SPEAKER = "celeste"
+RIME_HI_SPEAKER = "nadi"
 
 gemini = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 rime_session = requests.Session()
@@ -56,13 +58,14 @@ def clean_text_for_tts(text: str) -> str:
     return cleaned
 
 
-def synthesize(text: str) -> str:
+def synthesize(text: str, language: str = "en") -> str:
     cleaned = clean_text_for_tts(text)
+    speaker = RIME_HI_SPEAKER if language == "hi" else RIME_EN_SPEAKER
     payload = {
         "text": cleaned,
-        "speaker": "celeste",
+        "speaker": speaker,
         "modelId": "coda",
-        "language": "en",
+        "language": language,
         "samplingRate": RIME_SAMPLE_RATE,
     }
     t0 = time.perf_counter()
@@ -91,10 +94,10 @@ def handle_question(audio_path: str, history: list):
     try:
         question = transcribe(audio_path)
         yield question, "", None, "Transcribed — finding the answer...", history
-        answer = answer_question(question, history)
+        answer, language = answer_question(question, history)
         history = (history + [{"question": question, "answer": answer}])[-MAX_HISTORY_TURNS:]
         yield question, answer, None, "Answer ready — generating speech...", history
-        reply_audio = synthesize(answer)
+        reply_audio = synthesize(answer, language)
         elapsed = time.perf_counter() - t_total
         print(f"  [timing] total: {elapsed:.2f}s")
         yield question, answer, reply_audio, f"Done ({elapsed:.2f}s)", history
