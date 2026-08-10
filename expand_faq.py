@@ -8,7 +8,7 @@ from google.genai import types
 
 load_dotenv()
 
-VARIANTS_PER_QUESTION = 6
+VARIANTS_PER_QUESTION = 3
 BATCH_SIZE = 3
 OUTPUT_FILE = "faq_expanded.json"
 

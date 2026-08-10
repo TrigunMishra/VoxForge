@@ -25,13 +25,49 @@ _embedding_model = TextEmbedding()
 _gemini = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
 
+MAX_HISTORY_TURNS = 3
+
+
 def _can_use_directly(answer: str) -> bool:
     if len(answer.split()) > MAX_DIRECT_ANSWER_WORDS:
         return False
     return not re.search(r"[*_#`>~\[\]|]|^\s*[-•]", answer, flags=re.MULTILINE)
 
 
-def answer_question(question: str) -> str:
+def _build_conversation_context(history: list[dict] | None) -> str:
+    if not history:
+        return ""
+    lines = "\n".join(
+        f"User: {turn['question']}\nAssistant: {turn['answer']}"
+        for turn in history
+    )
+    return f"Earlier in this conversation:\n{lines}\n\n"
+
+
+def _answer_from_context(question: str, history: list[dict]) -> str:
+    prompt = (
+        "You are a friendly campus guide continuing a conversation. "
+        "Use the recent conversation below to answer the user's latest "
+        "question. If it refers to something mentioned earlier (e.g. "
+        "'what about on weekends?'), answer about that same topic. "
+        "Reply with a natural, spoken-sounding answer of ONE short "
+        "sentence, under 20 words. Use no markdown, bullets, or "
+        "asterisks.\n\n"
+        f"{_build_conversation_context(history)}"
+        f"User: {question}"
+    )
+    response = _gemini.models.generate_content(
+        model="gemma-4-26b-a4b-it",
+        contents=prompt,
+        config=genai.types.GenerateContentConfig(
+            max_output_tokens=200,
+            thinking_config=genai.types.ThinkingConfig(thinking_level="minimal"),
+        ),
+    )
+    return response.text.strip()
+
+
+def answer_question(question: str, history: list[dict] | None = None) -> str:
     t = time.perf_counter()
     query_vector = list(_embedding_model.embed([question]))[0]
     result = _qdrant.query_points(
@@ -42,6 +78,9 @@ def answer_question(question: str) -> str:
     print(f"  [timing] qdrant search: {time.perf_counter() - t:.2f}s")
 
     if not result.points or result.points[0].score < SIMILARITY_GRACE_FLOOR:
+        if history:
+            print("  [info] no strong FAQ match, using conversation memory")
+            return _answer_from_context(question, history)
         return FALLBACK_ANSWER
 
     best = result.points[0]
@@ -77,9 +116,14 @@ def answer_question(question: str) -> str:
         return faq_answer
 
     prompt = (
-        "You are a friendly campus guide. Given the user's question, "
+        "You are a friendly campus guide. "
+        + _build_conversation_context(history)
+        + "Given the user's question, "
         "the matched FAQ question, and its answer, reply with a natural, "
         "spoken-sounding answer of ONE short sentence, under 20 words. "
+        "If the user is asking a follow-up that refers to the earlier "
+        "conversation (e.g. 'what about on weekends?'), answer about that "
+        "same topic using the context above. "
         "Do not include the original FAQ text verbatim and use no markdown, "
         "bullets, or asterisks. Sound like you are talking to a student.\n\n"
         f"User question: {question}\n"

@@ -3,12 +3,9 @@
     "question": "What are the key clubs or societies at the institute that students can get involved in?",
     "variants": [
       "What are the key clubs or societies at the institute that students can get involved in?",
-      "What clubs can I join here?",
-      "Which societies are the most popular?",
-      "Are there many clubs to get involved in?",
-      "What kind of student societies do you have?",
-      "What are the main clubs on campus?",
-      "What societies can students join?"
+      "What kind of clubs are there to join here?",
+      "Which societies should I look into?",
+      "What are the main student clubs on campus?"
     ],
     "answer": "Life outside the classroom at the institute is vibrant and dynamic, driven largely by two main categories of student organizations:\n• Technical Societies\n• Non-Technical (Cultural & Literary) Societies"
   },
@@ -16,12 +13,9 @@
     "question": "What are the technical societies/clubs?",
     "variants": [
       "What are the technical societies/clubs?",
-      "Are there any tech clubs?",
-      "What technical societies do you have?",
-      "Which clubs are more technical?",
-      "Do you have any engineering or tech societies?",
-      "What are the STEM-related clubs?",
-      "Are there clubs for technical interests?"
+      "Are there any tech-related clubs?",
+      "What kind of technical societies do you have?",
+      "Which clubs are more focused on tech?"
     ],
     "answer": "There are 16 technical societies in the institute which includes:\n• Nibble Computer Society (NCS): A premier coding and software development club focusing on competitive programming, web development, and hackathons.\n• Google Developer Groups (GDG): A developer community training students in cutting-edge tech like cloud computing, machine learning, and Android development.\n• Microsoft Mobile Innovation Labs (MMIL): A prominent tech group centered around software engineering, app building, and emerging technologies.\n• Quanta Society (ECE): The core technical society for Electronics and Communication Engineering, specializing in embedded systems, IoT, and robotics.\n• Team Albatross 8: A multidisciplinary aerospace society that designs and builds advanced aircraft and drone systems for competitive challenges.\n• SAE Collegiate Club: An automotive engineering club where students design and fabricate high-performance vehicles for national racing events.\n• Departmental Technical Clubs: Societies like Yantrashilpa (Mechanical), ACE (Civil), and Oorjita (Electrical) that host core workshops and technical events.\n• Entrepreneurship Development Cell (EDC): Fosters startup culture, business pitching, and entrepreneurial thinking through bootcamps and ideathons.\nSome more technical clubs include-ROBOIQ society, PIXELLENCE, IEEE."
   },
@@ -29,12 +23,9 @@
     "question": "What are the non-technical society/clubs?",
     "variants": [
       "What are the non-technical society/clubs?",
-      "What are the hobby clubs like?",
-      "Are there any non-technical societies?",
-      "What kind of social clubs are there?",
-      "Which clubs aren't related to studies?",
-      "Do you have any arts or sports clubs?",
-      "What are the non-academic societies?"
+      "What are the non-tech clubs like?",
+      "Are there any clubs that aren't technical?",
+      "What kind of hobby or social clubs are there?"
     ],
     "answer": "There are 13 non-technical societies in the institute which includes:\n• Verve: The dynamic dance and music society that leads major cultural performances and campus events.\n• Illuminati: The official dramatics society, widely known for thought-provoking street plays (nukkad natak) and stage performances.\n• Vyom: The official Hindi literary and debating society, fostering linguistic expression and rhetoric.\n• Lingua Franca: The English literary society that hones creative writing, quizzing, and public speaking skills.\nSome more non-technical clubs includes-Akshargyaan, Divercity, Impetus, inkspire, kalakriti, origo, photography and film club, quizzoc, YFAC."
   },
@@ -43,11 +34,8 @@
     "variants": [
       "What is grading system in B-tech?",
       "How does the B-tech grading work?",
-      "What's the grading scale for B-tech?",
-      "How are we graded in B-tech?",
-      "Can you explain the B-tech grading system?",
-      "What kind of grading do they use in B-tech?",
-      "How does B-tech grade students?"
+      "What's the grading scheme for B-tech?",
+      "How are we graded in B-tech?"
     ],
     "answer": "If you score between 90 and 100 marks, you achieve an Outstanding level, which earns an S grade worth 10 grade points.\nA score of 75 to 89 is Excellent, giving you an A grade with 9 points.\nScoring in the 66 to 74 range is considered Very Good, earning a B+ grade and 8 points, while a score from 56 to 65 gets a good rating, which corresponds to a B grade and 7 points.\nOn the lower end, scoring 50 to 55 is marked as Average, resulting in a D grade worth 5 points.\nA score between 45 and 49 is considered Poor, yielding an E grade with 4 points.\nFinally, anything below 45 marks results in a Fail, which is recorded as an F grade with 0 grade points."
   },
@@ -57,10 +45,7 @@
       "How to calculate SGPA and CGPA?",
       "How do I figure out my SGPA and CGPA?",
       "What's the formula for SGPA and CGPA?",
-      "How are SGPA and CGPA calculated?",
-      "Can you show me how to get my SGPA and CGPA?",
-      "How do you work out SGPA and CGPA?",
-      "How do I calculate my GPA?"
+      "How are SGPA and CGPA calculated?"
     ],
     "answer": "To calculate your SGPA, you multiply the credit value of each course by the grade points you earned in that course to find its credit points. Then, you divide the total credit points across all courses by your total number of credits.\nFor example, Course 1 has 5.5 credits with a B+ grade worth 8 points, giving 44 credit points.\nCourse 2 has 4 credits with a C grade worth 6 points, yielding 24 credit points.\nCourse 3 has 5 credits with a B grade worth 7 points, amounting to 35 credit points.\nCourse 4 has 3 credits with an S grade worth 10 points, adding 30 credit points.\nLastly, Course 5 has 3 credits with an F grade worth 0 points, which contributes 0 credit points.\nSumming these up gives a total of 133 credit points over 20.5 total credits.\nDividing 133 by 20.5 results in an SGPA of 6.48.\nYour CGPA is calculated in the exact same manner at the end of the program, but by combining the overall credit points and credits accumulated across all semesters.\nIf you achieve a grade point of 7.75 and above, you are awarded First Class with Distinction (FCD). If your score falls between 6.75 and 7.74, you earn a First Class (FC) designation. A score ranging from 5.25 to 6.74 secures a Second Class (SC).\nTo convert your overall CGPA into an equivalent percentage, the university uses the following formula:\nPercentage marks =(CGPA-0.75) × 10"
   },
@@ -70,10 +55,7 @@
       "What is the attendance requirement for B-tech?",
       "How much attendance do we need for B-tech?",
       "What's the minimum attendance for B-tech?",
-      "Do we have an attendance requirement in B-tech?",
-      "How many classes do I have to attend in B-tech?",
-      "What are the attendance rules for B-tech?",
-      "How much attendance is mandatory for B-tech?"
+      "How many classes do I have to attend in B-tech?"
     ],
     "answer": "To be eligible for the 1st and 2nd Continuous Internal Evaluation (CIE) tests, you must maintain a minimum of 60% attendance in each registered course, with attendance for the second test calculated between the first and second test periods.\nFor the End Semester Examination (ESE), you need a minimum of 85% attendance throughout the semester in each course.\nHowever, there is an attendance toleration of up to 15% that can be granted for valid reasons, provided your department recommends it. If you fail to meet these attendance requirements, the primary consequence is that you become ineligible to appear for the End Semester Examinations.\nFinally, if you miss internal tests due to valid emergencies or officially representing the university, an additional CIE may be allowed, provided you still meet the overall semester attendance criteria."
   },
@@ -81,12 +63,9 @@
     "question": "Where is the library?",
     "variants": [
       "Where is the library?",
-      "Where's the library?",
       "Do you know where the library is?",
       "How do I get to the library?",
-      "Can you tell me where the library is?",
-      "Which way is the library?",
-      "Is there a library around here?"
+      "Can you tell me where the library's located?"
     ],
     "answer": "The central library is located right inside the campus in C Block. On campus, the library is housed within the main academic building complex, easily accessible near the central admin block and academic departments."
   },
@@ -95,11 +74,8 @@
     "variants": [
       "Give the direction of library from gate 1",
       "How do I get to the library from gate 1?",
-      "Which way to the library from gate 1?",
-      "Can you show me the way to the library from gate 1?",
-      "From gate 1, how do I find the library?",
-      "What's the best way to the library from gate 1?",
-      "Is the library near gate 1?"
+      "Which way is the library from gate 1?",
+      "Can you show me the way to the library from gate 1?"
     ],
     "answer": "Enter Gate 1: Walk straight down the main entrance driveway, past the security kiosk, heading toward the central campus area.\nHead to AB 1: Continue straight along the main paved walkway toward AB - 1, which is directly ahead near the central administrative section and front lawn.\nEnter AB - 1: Enter the main entrance of AB - I and head toward the central staircase or elevators.\nReach Library: Take the stairs or elevator to the upper floor level (2nd/3rd floor wing), where the main entrance and reading halls of the library are located."
   },
@@ -107,12 +83,9 @@
     "question": "What are the library timings?",
     "variants": [
       "What are the library timings?",
-      "When does the library open?",
+      "When does the library open and close?",
       "What are the library hours?",
-      "When does the library close?",
-      "Do you know the library's schedule?",
-      "What time is the library open until?",
-      "What are the opening hours for the library?"
+      "Do you know when the library is open?"
     ],
     "answer": "For the Reference Section, it operates from 8:30 AM to 8:00 PM from Monday to Friday, and on Saturdays, it is open from 8:30 AM to 4:30 PM.\nFor the Lending Section, the timing is from 9:30 AM to 5:30 PM from Monday to Friday, and on Saturdays, it remains open from 9:30 AM to 1:30 PM.\nIf you are looking for the Pharmacy Library, it runs from 9:30 AM to 5:30 PM from Monday to Friday, and on Saturdays, it is open from 8:30 AM to 1:00 PM.\nPlease note that all library sections remain closed on Sundays and official holidays."
   },
@@ -120,12 +93,9 @@
     "question": "What are the borrowing privileges?",
     "variants": [
       "What are the borrowing privileges?",
-      "How many books can I borrow?",
+      "How many books can I check out?",
       "What's the borrowing policy?",
-      "Can I check out books?",
-      "What are the rules for borrowing?",
-      "What can I borrow here?",
-      "How does borrowing work?"
+      "What am I allowed to borrow?"
     ],
     "answer": "The library's borrowing privileges depend on your specific user category, though the return deadline is the same across the board.\nIf you are a B. Tech student, a Master's student in any program, or a Research Scholar, you are allowed to borrow up to 6 books at a time. However, if you are enrolled in the Diploma in Pharmacy program, your borrowing limit is set to 2 books.\nRegardless of your category or how many books you are allowed to check out, the standard issue period for all borrowed books is exactly 15 days."
   },
@@ -133,12 +103,9 @@
     "question": "What are the academic expectations?",
     "variants": [
       "What are the academic expectations?",
-      "What's expected of us academically?",
-      "What are the academic standards?",
-      "What do I need to achieve?",
-      "What are the academic requirements?",
-      "How much work is expected?",
-      "What's the academic bar?"
+      "What am I expected to achieve academically?",
+      "What are the academic standards here?",
+      "What's the level of academic work required?"
     ],
     "answer": "~Active Participation & Presence\nShow up on time, take good notes, and stay engaged during class discussions.\nGo beyond the basics speak up in seminars and actively contribute to group work.\nKeep your phone and laptop focused strictly on coursework, and always respect different opinions in the room.\n~Independent & Proactive Learning\nTake ownership of your learning by keeping an eye on your course syllabus.\nDo your assigned readings and prep work before you step into the classroom.\nIf you start to struggle, don't wait-reach out to professors during office hours, talk to your TAs, or use the campus learning centre early on.\n~Deadlines & Accountability\nTurn in high-quality work right on time, because unexcused late submissions will cost you marks.\nStick to the required formatting rules, whether that's APA, Harvard, or MLA style.\nIf a genuine emergency comes up, reach out and request an extension as early as possible.\n~Uncompromising Academic Integrity\nDo your individual assignments entirely on your own without unauthorized help.\nCite your sources properly so you give full credit to other people's ideas and avoid plagiarism.\nCheating, making up data, or misusing Al tools is strictly against the rules and violates the university code of conduct."
   },
@@ -146,12 +113,9 @@
     "question": "What are the unfair means (UFM) categories and penalties?",
     "variants": [
       "What are the unfair means (UFM) categories and penalties?",
-      "What counts as cheating and what's the penalty?",
-      "What are the UFM rules and punishments?",
-      "What happens if I'm caught cheating?",
-      "What are the categories for unfair means?",
-      "What's the penalty for UFM?",
-      "How is academic dishonesty categorized?"
+      "What counts as cheating and what are the punishments?",
+      "What are the UFM rules and consequences?",
+      "Can you tell me the cheating categories and penalties?"
     ],
     "answer": "~ Minor Misconduct\nExamples: Disobeying the invigilator or talking after a warning.\nPenalty: You get a warning first; if repeated, you receive zero marks or an F grade.\n~Moderate Misconduct\nExamples: Having chits with you or disclosing your identity on the paper.\nPenalty: You get zero marks or an F grade in that specific paper.\n~Major Cheating\nExamples: Copying from material or a peer, or exchanging answer scripts.\nPenalty: You get zero marks in that paper plus zero marks in your two lowest-scoring papers.\n~Severe Disruption\nExamples: Threatening staff members or bringing a pre-written answer script.\nPenalty: You get zero marks in all theory papers for that semester.\n~Very Serious Act\nExamples: Running off with the answer booklet or helping someone else cheat.\nPenalty: You get zero marks in all theory and practical exams for that semester.\n~Criminal Offence\nExamples: Possessing weapons or physically assaulting staff.\nPenalty: You get zero marks in all papers for the entire year and must repeat the year.\n~Carryover UFM\nExamples: Using bulk cheating material during a carryover exam.\nPenalty: You get zero marks in that carryover paper and are barred for 1 year.\n~Special Others\nExamples: Any other unlisted offense.\nPenalty: The exact penalty is decided directly by the Examination Committee."
   },
@@ -159,12 +123,9 @@
     "question": "How is the programme credits break down?",
     "variants": [
       "How is the programme credits break down?",
-      "How are the credits broken down?",
+      "How are the credits split up?",
       "What's the credit breakdown for this program?",
-      "How many credits do I get for each part?",
-      "Can you show me the credit distribution?",
-      "How are the programme credits split up?",
-      "What does the credit structure look like?"
+      "How many credits do I get for each part?"
     ],
     "answer": "Regular Students\nDuration: 4 Years (8 Semesters)\nB. Tech Credits: 166 credits required\nB. Pharm Credits: 193 credits required\nLateral Entry Students\nDuration: 3 Years (6 Semesters)\nB. Tech Credits: 123 credits required\nB. Pharm Credits: 146 credits required\nKey System\nThe university officially follows the Choice-Based Credit System (CBCS) across these programs."
   },
@@ -172,12 +133,9 @@
     "question": "How the Assessment Structure breaks down?",
     "variants": [
       "How the Assessment Structure breaks down?",
-      "How is the assessment structured?",
-      "What's the breakdown of the assessments?",
-      "How are we being assessed?",
-      "Can you explain the assessment structure?",
-      "What's the split for the assessments?",
-      "How does the grading structure work?"
+      "How's the grading set up?",
+      "What's the breakdown for assessments?",
+      "How are we being assessed?"
     ],
     "answer": "Continuous Internal Evaluation (CIE)\nDetails: This takes place throughout the semester through regular tests and internal events like quizzes, assignments, seminars, case studies, or mini-projects.\nWeightage: Counts for 40% of your final score in both B. Tech and B.Pharm.\nEnd Semester Evaluation (ESE)\nDetails: Conducted at the end of the semester for core and elective theory courses through written examinations.\nWeightage: Counts for 60% of your final score in both B. Tech and B.Pharm."
   },
@@ -186,11 +144,8 @@
     "variants": [
       "What is the end semester examination schedule?",
       "When are the final exams?",
-      "What's the exam schedule for this semester?",
-      "Do we have the end-of-semester exam dates yet?",
-      "When do the finals take place?",
-      "Can I see the final exam timetable?",
-      "What's the schedule for the end-of-term exams?"
+      "Do we have the exam schedule yet?",
+      "What's the timetable for finals?"
     ],
     "answer": "B. Tech Schedule\nOdd Semesters (I, III, V & VII):\nRegular candidates write exams in November / December.\nFailed candidates write re-exams in May / June.\nEven Semesters (II, IV, VI & VIII):\nRegular candidates write exams in May / June.\nFailed candidates write re-exams in November/December.\nB. Pharm Schedule\nOdd Semesters (I, III, V & VII):\nRegular candidates write exams in November / December.\nFailed candidates write re-exams in January / February.\nEven Semesters (II, IV, VI & VIII):\nRegular candidates write exams in May / June.\nFailed candidates write re-exams in July / August."
   },
@@ -200,10 +155,7 @@
       "Where is academic block 1? Provide direction from gate 1.",
       "How do I get to academic block 1 from gate 1?",
       "Can you tell me the way to academic block 1 from gate 1?",
-      "Where's academic block 1 from gate 1?",
-      "Which way is academic block 1 if I start at gate 1?",
-      "Could you point me toward academic block 1 from gate 1?",
-      "How can I find academic block 1 starting from gate 1?"
+      "Which way is academic block 1 from gate 1?"
     ],
     "answer": "Upon entering the main gate of the campus, Academic Block 1 (AB-1) is situated near the central administrative building and primary academic quad.\nTo walk from Gate no. 1 to Academic Block 1 (AB-1):\nEnter the Campus: Cross the security desk at Gate no. 1 (the main entrance facing the main road).\nFollow the Main Pathway: Walk straight ahead down the central paved driveway.\nPass the Front Lawn: Continue straight as you pass the main green lawns and landscaping on your side.\nArrive at AB-1: Academic Block 1 is located directly in front of you near the central administrative section and primary quad of the campus."
   },
@@ -211,12 +163,9 @@
     "question": "How many academic blocks are there?",
     "variants": [
       "How many academic blocks are there?",
-      "How many academic blocks do we have?",
-      "What's the total number of academic blocks?",
-      "Are there many academic blocks here?",
-      "How many different academic blocks are there?",
-      "Could you tell me how many academic blocks there are?",
-      "How many academic blocks are on campus?"
+      "How many academic blocks are on campus?",
+      "Is there a specific number of academic blocks?",
+      "How many of these academic blocks are there?"
     ],
     "answer": "The campus features 5 main academic blocks spread across its 28-acre campus:\nAcademic Block 1 (AB-1): Houses core administrative offices, classrooms, and primary departmental facilities.\nAcademic Block 2 (AB-2): Contains key departmental laboratories (such as electrical, graphics, and computer labs) and lecture rooms.\nAcademic Block 3 (AB-3): Houses additional engineering departments, specialized labs, and lecture halls.\nAcademic Block 4 & 5 (AB-4 & AB-5): Accommodate specialized program departments, research wings, and additional academic facilities."
   },
@@ -224,12 +173,9 @@
     "question": "Where is academic block 2? Provide direction from gate 1.",
     "variants": [
       "Where is academic block 2? Provide direction from gate 1.",
-      "How do I get to academic block 2 from gate 1?",
-      "Can you show me the way to academic block 2 from gate 1?",
-      "Where's academic block 2 if I'm at gate 1?",
-      "Which direction is academic block 2 from gate 1?",
-      "How can I reach academic block 2 from gate 1?",
-      "Could you direct me to academic block 2 from gate 1?"
+      "Can you show me how to get to academic block 2 from gate 1?",
+      "What's the route to academic block 2 from gate 1?",
+      "How do I find academic block 2 starting from gate 1?"
     ],
     "answer": "Gate 1 to AB-2\nEnter Gate 1 and walk straight down the main avenue.\nPass the main front lawn toward the central academic building.\nWalk past AB-1; AB-2 is right next to it along the main walkway."
   },
@@ -238,11 +184,8 @@
     "variants": [
       "Where is MPH (multi purpose hall) from gate 1?",
       "How do I get to the MPH from gate 1?",
-      "Which way is the multi purpose hall from gate 1?",
-      "Can you tell me how to find the MPH from gate 1?",
-      "Is the MPH near gate 1?",
-      "What's the best way to the MPH starting from gate 1?",
-      "Where's the multi purpose hall if I'm at gate 1?"
+      "Can you tell me the way to the multi purpose hall from gate 1?",
+      "Which way is the MPH from gate 1?"
     ],
     "answer": "Gate 1 to MPH Hall (Brief Route):\nEnter Gate 1 and walk straight down the main academic road.\nPass AB-1, AB-2, and AB-3 toward the back section of the campus.\nHead past the central quad toward the sports field and hostel area; MPH HALL is on your right near the sports ground."
   },
@@ -250,12 +193,9 @@
     "question": "Where is academic block 3? Provide direction from gate 1",
     "variants": [
       "Where is academic block 3? Provide direction from gate 1",
-      "How do I find academic block 3 from gate 1?",
+      "How do I find academic block 3 starting from gate 1?",
       "Can you show me the way to academic block 3 from gate 1?",
-      "Which way is academic block 3 if I enter through gate 1?",
-      "How do I get to block 3 from gate 1?",
-      "Could you direct me to academic block 3 from gate 1?",
-      "What's the route to academic block 3 from gate 1?"
+      "What's the best way to get to academic block 3 from gate 1?"
     ],
     "answer": "Gate 1 to AB-3\nEnter Gate 1 and walk straight down the main road.\nWalk past AB-1 and AB-2 along the main pathway.\nContinue straight past the central quad; AB-3 is right next to AB-2."
   },
@@ -264,11 +204,8 @@
     "variants": [
       "Where is academic block 4 and 5? Provide direction from gate 1",
       "How do I get to academic blocks 4 and 5 from gate 1?",
-      "Which way are blocks 4 and 5 from gate 1?",
-      "Can you tell me how to find academic blocks 4 and 5 from gate 1?",
-      "What's the direction to academic block 4 and 5 from gate 1?",
-      "Where are academic blocks 4 and 5 located starting from gate 1?",
-      "How do I reach academic blocks 4 and 5 from gate 1?"
+      "Which way are academic blocks 4 and 5 from gate 1?",
+      "Can you point me toward academic blocks 4 and 5 from gate 1?"
     ],
     "answer": "Enter Gate 1: Walk straight down the main internal pathway past the front lawns.\nFollow the Central Corridor: Pass AB - 1, AB - 2, and AB-3 along the main walkway heading toward the inner section of the campus.\nArrive at AB-4 & AB-5: Continue straight toward the rear academic complex near the sports field/hostel area. AB-4 and AB-5 are situated directly adjacent to this inner academic wing."
   },
@@ -278,11 +215,496 @@
       "Where is amenities shop on campus?",
       "Where's the amenities shop on campus?",
       "Do you know where the amenities shop is?",
-      "Where can I find the amenities shop?",
-      "Is there an amenities shop on campus? Where is it?",
-      "Can you tell me where the amenities shop is located?",
-      "Where is the campus amenities shop?"
+      "Can you tell me where to find the campus amenities shop?"
     ],
     "answer": "Enter Gate 1: Walk straight down the main entrance path past the front lawn.\nHead to AB-1: Go directly toward Academic Block 1 (AB-1).\nArrive at the ATM; besides ATM there is an amenities shop"
+  },
+  {
+    "question": "What are the daily meal timings for the dining halls?",
+    "variants": [
+      "What are the daily meal timings for the dining halls?",
+      "When are the dining halls open for meals?",
+      "What time is food served in the dining halls?",
+      "What are the meal times for the dining halls?",
+      "What are the mess timings?",
+      "What time does the mess open?"
+    ],
+    "answer": "Our dining facilities operate on a consistent daily schedule to accommodate student routines. Typical service hours are as follows:\n\n* Breakfast: 7:30 AM – 9:30 AM\n* Lunch: 11:30 AM – 2:00 PM\n* Afternoon Snacks: 3:00 PM – 4:30 PM\n* Dinner: 5:30 PM – 8:00 PM\n\nPlease note that timings may vary slightly during midterms or finals week to allow for extended service."
+  },
+  {
+    "question": "How do I use my meal plan and where can I buy extra coupons?",
+    "variants": [
+      "How do I use my meal plan and where can I buy extra coupons?",
+      "How does my meal plan work, and where do I get extra coupons?",
+      "Can you show me how to use my meal plan and where to buy more coupons?",
+      "Where can I buy extra coupons and how do I use my meal plan?",
+      "How do mess coupons work?",
+      "Where do I get extra mess coupons?"
+    ],
+    "answer": "Students can access dining halls by scanning their official University ID card at the entrance kiosks. If you run out of meal swipes, you may purchase 'Guest Meal Coupons' or 'Reloadable Credits' through the Student Services Portal or at the main Dining Hall service desk. These credits can be used for individual meals or at on-campus retail cafes."
+  },
+  {
+    "question": "Is there a different dining schedule for weekends and holidays?",
+    "variants": [
+      "Is there a different dining schedule for weekends and holidays?",
+      "Do dining hours change on weekends or holidays?",
+      "Are the dining hall hours different for holidays and weekends?",
+      "Does the schedule change for weekends and holidays?",
+      "What are the mess timings on weekends?",
+      "Does the mess stay open on Sundays?"
+    ],
+    "answer": "Yes, dining services are modified during non-instructional periods. On Saturdays and Sundays, the dining hall typically offers a single 'Brunch' service from 10:00 AM to 2:00 PM and a single 'Dinner' service from 5:00 PM to 7:30 PM. During official university holidays, dining hours are significantly reduced; please check the University Academic Calendar for specific closure dates."
+  },
+  {
+    "question": "Can I bring a guest to eat with me in the dining hall?",
+    "variants": [
+      "Can I bring a guest to eat with me in the dining hall?",
+      "Am I allowed to bring a guest to the dining hall?",
+      "Can I have someone eat with me in the dining hall?",
+      "Are guests allowed to eat in the dining hall?",
+      "Can I bring a friend to the mess?",
+      "Are outsiders allowed inside the mess?"
+    ],
+    "answer": "Absolutely. You are welcome to bring friends or family to dine with you. Guests can be accommodated using a Guest Meal Pass, which can be purchased at the dining hall entrance, or by using a credit card for a single-entry fee. Please be aware that guest entries are subject to seating availability."
+  },
+  {
+    "question": "Where can I find the weekly menu and nutritional information?",
+    "variants": [
+      "Where can I find the weekly menu and nutritional information?",
+      "Where's the weekly menu and nutrition info?",
+      "How do I check the weekly menu and nutritional facts?",
+      "Where can I see what's on the menu this week and the nutrition info?"
+    ],
+    "answer": "The rotating weekly menu is updated every Sunday evening. You can view the full menu, including allergen warnings and nutritional breakdowns (calories, macros, etc.), via the 'Campus Dining' tab on the university mobile app or the official dining website. Menus are subject to change based on seasonal ingredient availability."
+  },
+  {
+    "question": "Who should I contact if I have a dietary requirement or a complaint?",
+    "variants": [
+      "Who should I contact if I have a dietary requirement or a complaint?",
+      "Who do I talk to about food allergies or complaints?",
+      "Who's the best person to contact for dietary issues or issues?",
+      "Who should I reach out to if I have a complaint or a food requirement?"
+    ],
+    "answer": "If you have specific questions regarding food allergies, religious dietary restrictions, or if you wish to provide feedback regarding your dining experience, please contact the Dining Services Office. You can reach them via email at dining@university.edu or by visiting the administrative office located in the basement of the Student Union building."
+  },
+  {
+    "question": "How do I apply for a hostel room and what is the allotment process?",
+    "variants": [
+      "How do I apply for a hostel room and what is the allotment process?",
+      "How do I apply for a room and how are they assigned?",
+      "What's the process for applying and getting a hostel room?",
+      "How do I sign up for a hostel and how do you pick the rooms?"
+    ],
+    "answer": "Hostel allotment is conducted through the online Student Housing Portal during the registration period. Allotment is primarily based on: \n• Proximity of permanent residence to campus\n• Academic merit/seniority\n• Application submission date\nPlacement is not guaranteed, so students are encouraged to apply as early as possible once the portal opens."
+  },
+  {
+    "question": "What types of rooms are available and what is included?",
+    "variants": [
+      "What types of rooms are available and what is included?",
+      "What kind of rooms do you have and what comes with them?",
+      "What room options are there and what's included in the price?",
+      "What types of rooms are open and what do I get with each one?"
+    ],
+    "answer": "We offer several room configurations to suit different preferences and budgets: \n• Single Occupancy: Private room for individual study.\n• Double Occupancy: Shared room with one roommate.\n• Quadruple Occupancy: Shared suite with three roommates.\nAll rooms are furnished with a standard kit including a bed, study desk, chair, and wardrobe. Utility costs such as electricity and water are included in the semester fee, though personal appliances may incur extra charges."
+  },
+  {
+    "question": "What are the daily hostel timings and curfew policies?",
+    "variants": [
+      "What are the daily hostel timings and curfew policies?",
+      "What are the hostel hours and curfew rules?",
+      "When do I have to be back in the hostel each day?",
+      "What are the daily timings and curfew for the hostel?"
+    ],
+    "answer": "To ensure student safety, all hostels observe strict entry and exit timings. The standard curfew is approximately 10:00 PM on weekdays and 11:30 PM on weekends. Students wishing to stay out past these hours must submit an 'Out-of-Hours' request via the mobile app at least 24 hours in advance for approval by the Warden."
+  },
+  {
+    "question": "Who is in charge of the hostel and how can I report an issue?",
+    "variants": [
+      "Who is in charge of the hostel and how can I report an issue?",
+      "Who runs the hostel and how do I report a problem?",
+      "Who's the hostel warden and how can I file a complaint?",
+      "Who's in charge here and how do I let them know if something's wrong?"
+    ],
+    "answer": "Each residential block is managed by a Resident Warden and a team of Assistant Wardens who oversee student welfare and disciplinary matters. For maintenance issues (such as plumbing or electrical faults), please log a ticket through the Campus Facilities App. For emergencies or security concerns, contact the 24/7 Hostel Security Desk immediately."
+  },
+  {
+    "question": "Is Wi-Fi available in the rooms and what are the connectivity rules?",
+    "variants": [
+      "Is Wi-Fi available in the rooms and what are the connectivity rules?",
+      "Do we get Wi-Fi in our rooms and are there any rules?",
+      "Is there Wi-Fi in the rooms and how does it work?",
+      "Can I get Wi-Fi in my room and what are the usage rules?"
+    ],
+    "answer": "Yes, high-speed Wi-Fi is provided throughout all hostel wings and common areas. Students can connect using their university credentials via the 'Campus-Secure' network. Please note that while bandwidth is sufficient for academic research and streaming, heavy peer-to-peer file sharing is prohibited under the university's Acceptable Use Policy."
+  },
+  {
+    "question": "What facilities and amenities can I expect in the residential areas?",
+    "variants": [
+      "What facilities and amenities can I expect in the residential areas?",
+      "What kind of stuff is included in the dorms?",
+      "What facilities do I get in the housing?",
+      "What's available in the residential areas?"
+    ],
+    "answer": "Hostels are designed to be self-contained living environments. Standard facilities include: \n• Common rooms equipped with televisions\n• Laundry rooms with coin/app-operated machines\n• Shared kitchenettes for light meal preparation\n• 24-hour drinking water stations\n• Study lounges located on every floor"
+  },
+  {
+    "question": "How do I use the university shuttle bus service?",
+    "variants": [
+      "How do I use the university shuttle bus service?",
+      "How do the campus shuttles work?",
+      "How can I catch the university bus?",
+      "What's the deal with the campus shuttle service?"
+    ],
+    "answer": "The university operates a fleet of shuttle buses that connect major residential halls to the academic core and the student union. Students can use their university ID cards to tap in at the entrance of each bus. Please note the following:\n\n* Shuttles run every 15–20 minutes during peak hours (8:00 AM – 10:00 AM and 3:00 PM – 5:00 PM).\n* During off-peak hours, frequency may decrease to every 30 minutes.\n* Real-time bus locations can be tracked via the official Campus Transit app."
+  },
+  {
+    "question": "Where can I park my car on campus?",
+    "variants": [
+      "Where can I park my car on campus?",
+      "Where am I allowed to park around here?",
+      "Is there anywhere I can park my car on campus?",
+      "Where are the campus parking spots?"
+    ],
+    "answer": "Parking is available in several designated lots, but access is strictly regulated by permit type. Most students are required to purchase a parking permit through the Campus Safety Office. General student parking is typically located in the peripheral lots (Lots A through E), while central lots are reserved for faculty, staff, and visitors. Please avoid parking in fire lanes or marked ADA spaces without proper authorization to avoid heavy fines or towing."
+  },
+  {
+    "question": "What are the routes for the campus commuter buses?",
+    "variants": [
+      "What are the routes for the campus commuter buses?",
+      "Where do the campus buses go?",
+      "Which routes do the commuter buses take?",
+      "How can I find the bus routes for campus?"
+    ],
+    "answer": "The commuter bus service provides transit between the main campus and several satellite locations, including the downtown medical center and the suburban commuter rail station. Detailed route maps, including specific stop locations and scheduled departure times, are available on the Transportation Services website. Because routes may change slightly due to construction or seasonal adjustments, we recommend checking the live schedule before planning your trip."
+  },
+  {
+    "question": "Can I use ride-sharing services like Uber or Lyft to get to campus?",
+    "variants": [
+      "Can I use ride-sharing services like Uber or Lyft to get to campus?",
+      "Do Ubers and Lyfts drop off on campus?",
+      "Is it okay to take an Uber to school?",
+      "Can I use ride-sharing to get here?"
+    ],
+    "answer": "Yes, ride-sharing services are permitted on campus. However, for safety and traffic flow, drivers are not allowed to linger at building entrances. We recommend using the designated 'Rideshare Pick-up/Drop-off Zones' located near the Student Union and the main library. This helps prevent congestion on campus loop roads and ensures a smoother experience for both you and your driver."
+  },
+  {
+    "question": "Is there bike storage or secure parking for cyclists?",
+    "variants": [
+      "Is there bike storage or secure parking for cyclists?",
+      "Where can I safely park my bike?",
+      "Is there a place to lock up bikes?",
+      "Do you have secure bike racks?"
+    ],
+    "answer": "Yes, the university encourages sustainable commuting by providing numerous bicycle racks throughout the campus. Most academic buildings have racks located near the main entrances. For added security, there are several indoor, keycard-access bike lockers located in the basement of the Student Union and the Library. We strongly recommend using a high-quality U-lock to secure your bicycle."
+  },
+  {
+    "question": "What should I do if I miss my scheduled shuttle?",
+    "variants": [
+      "What should I do if I miss my scheduled shuttle?",
+      "What happens if I miss my shuttle?",
+      "If I miss my shuttle, what's the plan?",
+      "What should I do if I miss my ride?"
+    ],
+    "answer": "If you miss your scheduled shuttle, you do not need to worry, as the buses run on a recurring loop. Simply proceed to the next nearest stop or wait at your current location for the next arriving bus. If the delay is significant or if you are traveling during late-night hours (typically after 11:00 PM), please check the 'Night Owl' shuttle schedule, which may operate on a different, less frequent route."
+  },
+  {
+    "question": "How do I pay my tuition and other university fees?",
+    "variants": [
+      "How do I pay my tuition and other university fees?",
+      "How can I pay my tuition?",
+      "Where do I go to pay my school fees?",
+      "What's the process for paying tuition?"
+    ],
+    "answer": "Students can pay their fees through the online Student Portal using several secure methods. We currently accept the following payment options: \n• Credit or debit cards (Visa, Mastercard, American Express)\n• Electronic funds transfer (EFT) or ACH\n• International wire transfers via our designated banking partner\n• Installment plans (available for an additional processing fee)\nAll payments should be made through the 'Finances' tab in your student account to ensure they are applied correctly to your ledger."
+  },
+  {
+    "question": "What are the important deadlines for fee payments?",
+    "variants": [
+      "What are the important deadlines for fee payments?",
+      "When are the deadlines for paying fees?",
+      "When do I need to have my fees paid by?",
+      "When is the last day to pay my tuition?"
+    ],
+    "answer": "To avoid late registration fees or being dropped from your courses, all tuition and mandatory fees must be settled by the official deadline. While specific dates change every semester, the general policy is as follows:\n• Fall Semester: Due by the first week of classes (approx. late August/early September)\n• Spring Semester: Due by the first week of classes (approx. mid-to-late January)\n• Summer Session: Due by the first day of the specific summer term\nWe recommend checking your Student Portal calendar for the exact dates applicable to your academic year."
+  },
+  {
+    "question": "What is your policy on tuition refunds and withdrawals?",
+    "variants": [
+      "What is your policy on tuition refunds and withdrawals?",
+      "How do refunds and withdrawals work?",
+      "What's the deal with getting money back if I withdraw?",
+      "Can you tell me about the refund policy?"
+    ],
+    "answer": "Refunds are calculated based on the date a student officially withdraws from a course or the university. Our standard refund schedule is typically structured as follows:\n• 100% refund: If withdrawal occurs within the first 5 business days of the term.\n• 50% refund: If withdrawal occurs between week 2 and week 3 of the term.\n• 0% refund: If withdrawal occurs after the third week of the term.\nPlease note that administrative fees and certain lab fees may be non-refundable regardless of the withdrawal date."
+  },
+  {
+    "question": "How can I apply for scholarships and financial aid?",
+    "variants": [
+      "How can I apply for scholarships and financial aid?",
+      "How do I apply for financial aid?",
+      "Where do I go to apply for scholarships?",
+      "What's the process for getting scholarship money?"
+    ],
+    "answer": "There are several avenues for securing financial support at our institution. Students are encouraged to explore:\n• Institutional Scholarships: Merit-based awards applied automatically during the admissions process.\n• Departmental Awards: Specialized funding managed by specific academic colleges.\n• External Scholarships: Private awards from third-party organizations.\nAll scholarship applications must be submitted through the University Financial Aid Office portal by the designated annual deadline, which usually falls in early spring for the upcoming academic year."
+  },
+  {
+    "question": "What happens if I am unable to pay my fees on time?",
+    "variants": [
+      "What happens if I am unable to pay my fees on time?",
+      "What if I can't pay my fees by the deadline?",
+      "Is there a penalty if my tuition is late?",
+      "What happens if I miss a payment?"
+    ],
+    "answer": "If you are experiencing financial hardship, we encourage you to contact the Student Accounts Office immediately. We offer several support mechanisms, including:\n• Deferred payment arrangements for students with documented emergencies.\n• Monthly installment plans to spread the cost of tuition over the semester.\n• Referrals to emergency student grants.\nFailure to communicate with our office regarding unpaid balances may result in a registrar hold, which prevents registration for future terms and the release of official transcripts."
+  },
+  {
+    "question": "Are there additional fees beyond tuition that I should be aware of?",
+    "variants": [
+      "Are there additional fees beyond tuition that I should be aware of?",
+      "Are there any other fees besides tuition?",
+      "Besides tuition, what else do I have to pay for?",
+      "Are there any extra costs I should know about?"
+    ],
+    "answer": "Yes, in addition to standard tuition, most students will see various mandatory and optional fees on their statements. Common examples include:\n• Student Activity Fee: Supports campus clubs, events, and student government.\n• Technology Fee: Covers campus Wi-Fi, software licenses, and computer lab access.\n• Health Service Fee: Provides access to campus medical and wellness facilities.\n• Facility Fees: Covers the use of the gymnasium, recreation center, and student unions.\nSpecific amounts for these fees vary by program and academic year."
+  },
+  {
+    "question": "Where is the campus medical centre located and what are its operating hours?",
+    "variants": [
+      "Where is the campus medical centre located and what are its operating hours?",
+      "Where's the medical center and when is it open?",
+      "Can you tell me where the campus clinic is and its hours?",
+      "Where is the health center located and what are the opening times?"
+    ],
+    "answer": "The University Health Services clinic is located in the Student Union Building, Level 2. Standard operating hours are Monday through Friday, 8:30 AM to 5:00 PM. Please note that holiday hours and weekend availability may vary depending on the academic term."
+  },
+  {
+    "question": "How do I access first aid if I have a minor injury or illness on campus?",
+    "variants": [
+      "How do I access first aid if I have a minor injury or illness on campus?",
+      "How can I get first aid if I feel sick or get hurt on campus?",
+      "What should I do if I need first aid while I'm here?",
+      "Where do I go for first aid if I have a minor injury?"
+    ],
+    "answer": "For minor injuries, you can visit the campus medical centre or any designated first aid station located in the main library and the athletic complex. If you are in a classroom or laboratory, please alert your instructor immediately, as they are trained in basic first aid protocols."
+  },
+  {
+    "question": "What should I do in the event of a medical emergency?",
+    "variants": [
+      "What should I do in the event of a medical emergency?",
+      "What do I do if there's a medical emergency?",
+      "Who do I call in a medical emergency?",
+      "What's the procedure for a medical emergency?"
+    ],
+    "answer": "In the event of a life-threatening emergency, call local emergency services (such as 911 or 999) immediately. You can also contact Campus Security at extension 5555, and they will dispatch an ambulance to your exact location on campus."
+  },
+  {
+    "question": "Do I need to have specific health insurance to use the campus medical centre?",
+    "variants": [
+      "Do I need to have specific health insurance to use the campus medical centre?",
+      "Do I need certain insurance for the campus clinic?",
+      "Is there a specific insurance I need for the medical centre?",
+      "Can I use any health insurance at the campus clinic?"
+    ],
+    "answer": "While the medical centre accepts most major domestic and international insurance providers, all students are required to maintain active health insurance coverage as a condition of enrollment. We recommend bringing your insurance card to every appointment to ensure proper billing."
+  },
+  {
+    "question": "Can I make an appointment online or do I need to walk in?",
+    "variants": [
+      "Can I make an appointment online or do I need to walk in?",
+      "Do I book online or just walk in?",
+      "Can I make an appointment online, or is it walk-in only?",
+      "Should I book an appointment online or just show up?"
+    ],
+    "answer": "We recommend scheduling appointments through the Student Health Portal to minimize wait times. However, we do reserve a limited number of slots each day for walk-in appointments on a first-come, first-served basis."
+  },
+  {
+    "question": "Are pharmacy services and prescription refills available on campus?",
+    "variants": [
+      "Are pharmacy services and prescription refills available on campus?",
+      "Is there a pharmacy on campus?",
+      "Can I get prescriptions filled here?",
+      "Do we have pharmacy services on campus?"
+    ],
+    "answer": "Yes, there is a small campus pharmacy located directly adjacent to the medical centre. They can fulfill most standard prescriptions; however, for specialized medications, you may be referred to a local community pharmacy."
+  },
+  {
+    "question": "How do I connect my laptop or phone to the campus Wi-Fi?",
+    "variants": [
+      "How do I connect my laptop or phone to the campus Wi-Fi?",
+      "How do I get on the campus Wi-Fi?",
+      "How do I connect to the internet here?",
+      "What's the way to connect my devices to the Wi-Fi?"
+    ],
+    "answer": "To access the internet, select the 'University-Secure' network from your device's Wi-Fi settings. When prompted, log in using your standard university username and password. For personal devices like gaming consoles or smart TVs that do not support secure login pages, please register your device's MAC address through the Student IT Portal."
+  },
+  {
+    "question": "Is there free Wi-Fi available in common areas and libraries?",
+    "variants": [
+      "Is there free Wi-Fi available in common areas and libraries?",
+      "Is there free Wi-Fi in the library?",
+      "Do common areas have free Wi-Fi?",
+      "Can I get free Wi-Fi in the study spaces?"
+    ],
+    "answer": "Yes, high-speed wireless internet is available throughout the entire campus, including all academic buildings, residence halls, and outdoor quads. While the 'University-Secure' network is recommended for all academic work, a secondary guest network, 'Uni-Guest,' is available for visitors. Note that guest access may have slower speeds and limited session durations."
+  },
+  {
+    "question": "What should I do if I can't connect to the internet?",
+    "variants": [
+      "What should I do if I can't connect to the internet?",
+      "What do I do if my internet isn't working?",
+      "How can I fix my connection if it goes out?",
+      "What's the plan if I can't get online?"
+    ],
+    "answer": "If you are experiencing connectivity issues, please try the following troubleshooting steps: \n• Toggle your device's Wi-Fi off and back on.\n• 'Forget' the University-Secure network in your settings and attempt to reconnect.\n• Ensure your university credentials have not expired.\nIf these steps do not resolve the issue, contact the IT Helpdesk for further assistance."
+  },
+  {
+    "question": "How can I contact the IT Helpdesk for technical support?",
+    "variants": [
+      "How can I contact the IT Helpdesk for technical support?",
+      "How do I get in touch with IT?",
+      "What's the best way to reach the Helpdesk?",
+      "How can I contact tech support?"
+    ],
+    "answer": "The IT Helpdesk is available to assist with all connectivity and hardware concerns. You can reach us through the following channels:\n• Email: helpdesk@university.edu\n• Phone: (555) 012-3456\n• In-Person: Visit the IT Service Desk located in the basement of the Student Union Building."
+  },
+  {
+    "question": "What are the Helpdesk operating hours?",
+    "variants": [
+      "What are the Helpdesk operating hours?",
+      "When is the Helpdesk open?",
+      "What are the Helpdesk hours?",
+      "When can I reach the Helpdesk?"
+    ],
+    "answer": "Our support services are available during the following approximate times:\n• In-Person Desk: Monday–Friday, 8:00 AM to 6:00 PM\n• Phone Support: Monday–Friday, 8:00 AM to 8:00 PM\n• Email Support: 24/7 (responses typically provided within 24 hours)\nPlease note that hours may vary during university holidays and reading weeks."
+  },
+  {
+    "question": "Are there limits on how many devices I can connect?",
+    "variants": [
+      "Are there limits on how many devices I can connect?",
+      "Is there a limit on how many devices I can use?",
+      "How many devices am I allowed to connect?",
+      "Can I connect as many devices as I want?"
+    ],
+    "answer": "Students are permitted to connect up to five personal devices to the 'University-Secure' network simultaneously. If you require additional connections for specialized research equipment, please submit a formal request via the IT Department website for approval."
+  },
+  {
+    "question": "Where are the main sports facilities located on campus and what is included?",
+    "variants": [
+      "Where are the main sports facilities located on campus and what is included?",
+      "Where are the main sports spots on campus and what do they have?",
+      "Where are the big sports facilities and what's included with them?",
+      "Where can I find the main sports facilities and what's available there?"
+    ],
+    "answer": "The primary athletic complex, the Student Recreation Center, is located on the north side of campus adjacent to the quad. Facilities available for student use include:\n• A full-scale fitness center with cardio and weightlifting equipment.\n• Indoor multipurpose courts for basketball and volleyball.\n• Two outdoor tennis/pickleball courts.\n• An all-weather artificial turf field for soccer and football.\n• Various outdoor playgrounds and recreational green spaces near the residence halls."
+  },
+  {
+    "question": "What are the operating hours for the gym and outdoor courts?",
+    "variants": [
+      "What are the operating hours for the gym and outdoor courts?",
+      "When are the gym and outdoor courts open?",
+      "What are the hours for the gym and the courts?",
+      "When can I use the gym and the outdoor courts?"
+    ],
+    "answer": "Standard operating hours for the Student Recreation Center are Monday through Friday from 6:00 AM to 11:00 PM, and Saturday through Sunday from 9:00 AM to 8:00 PM. Please note that hours may vary during university holidays and final exam weeks. Outdoor courts and playgrounds are accessible 24/7, though lighting for the tennis courts is only available between dusk and 10:00 PM."
+  },
+  {
+    "question": "How do I book a court or a specific fitness studio?",
+    "variants": [
+      "How do I book a court or a specific fitness studio?",
+      "How can I reserve a court or a studio?",
+      "What's the process for booking a court or fitness class?",
+      "How do I go about booking a court or a specific studio?"
+    ],
+    "answer": "All indoor court reservations and group fitness classes must be booked through the University Athletics Mobile App or the online Student Portal. To reserve a space:\n1. Log in using your university credentials.\n2. Select the 'Reservations' tab.\n3. Choose your desired facility (e.g., Basketball Court 2) and time slot.\n4. Confirm your booking. Reservations are typically limited to 60-minute blocks per student."
+  },
+  {
+    "question": "Do I need a membership to use the gym?",
+    "variants": [
+      "Do I need a membership to use the gym?",
+      "Can I use the gym without a membership?",
+      "Is a membership required to use the gym?",
+      "Do I have to be a member to work out here?"
+    ],
+    "answer": "All currently enrolled students with a valid University ID card have complimentary access to the main fitness center and indoor courts. Non-student faculty and staff may access the facilities for an approximate annual fee of $150-$200, which must be processed through the Campus Life office."
+  },
+  {
+    "question": "What is the policy regarding equipment rental and gym attire?",
+    "variants": [
+      "What is the policy regarding equipment rental and gym attire?",
+      "What are the rules for renting equipment and what should I wear?",
+      "Can you tell me about the equipment rental and dress code?",
+      "What's the policy on gear rental and gym clothes?"
+    ],
+    "answer": "Students may rent equipment such as basketballs, yoga mats, or resistance bands at the front desk by presenting their student ID. For safety and hygiene reasons, all users must adhere to the following dress code:\n• Closed-toe athletic shoes are mandatory at all times.\n• Proper athletic wear (shorts, leggings, or sweatpants) must be worn.\n• No denim, street shoes, or heavy jewelry are permitted in the weightlifting areas."
+  },
+  {
+    "question": "Can I host a private group or club practice at the sports facilities?",
+    "variants": [
+      "Can I host a private group or club practice at the sports facilities?",
+      "Can we use the sports facilities for a private club practice?",
+      "Is it possible to book the sports facilities for a private group?",
+      "Am I allowed to hold club practices at the sports center?"
+    ],
+    "answer": "Registered student organizations and official university clubs may reserve facilities for organized practices. These requests must be submitted via the Department of Campus Recreation at least two weeks in advance. Private external rentals for non-university groups are subject to availability and require formal approval from the Athletics Administration."
+  },
+  {
+    "question": "How do I apply for a new student identity card?",
+    "variants": [
+      "How do I apply for a new student identity card?",
+      "How do I get a new student ID?",
+      "What's the process for applying for a student card?",
+      "Where do I go to apply for a new student ID?"
+    ],
+    "answer": "To obtain your student ID, you must first upload a digital passport-sized photograph through the Student Portal. Once approved, you can collect your physical card at the Registrar's Office located in the Administration Building. Please note: \n* Initial ID cards are issued free of charge during orientation week.\n* Replacement cards for lost or damaged IDs incur a nominal processing fee (approximately $15–$25).\n* You must present a government-issued photo ID to collect your card."
+  },
+  {
+    "question": "What is the process for requesting an official academic transcript?",
+    "variants": [
+      "What is the process for requesting an official academic transcript?",
+      "How do I request an official transcript?",
+      "What's the way to get my official academic transcript?",
+      "How can I order an official transcript?"
+    ],
+    "answer": "Official transcripts can be requested via the Online Registrar Services dashboard. You may choose to have the transcript sent electronically to an institution or via secure mail to a physical address. Processing typically takes 5–7 business days, though expedited services may be available for an additional fee. Please ensure all outstanding tuition fees are cleared before submitting your request, as holds on your account will prevent transcript issuance."
+  },
+  {
+    "question": "How can I obtain a bonafide certificate for visa or internship purposes?",
+    "variants": [
+      "How can I obtain a bonafide certificate for visa or internship purposes?",
+      "How do I get a bonafide certificate for my visa?",
+      "Where can I request a bonafide certificate for an internship?",
+      "What's the process for getting a bonafide certificate?"
+    ],
+    "answer": "A bonafide certificate, which serves as official proof of your current enrollment status, can be requested through the Student Services Helpdesk. After submitting the digital application form, the document is usually processed within 3–5 business days. You can specify whether you require a digital PDF version or a hard copy with a physical university seal."
+  },
+  {
+    "question": "Where can I go if I need help with administrative or campus services?",
+    "variants": [
+      "Where can I go if I need help with administrative or campus services?",
+      "Where do I go for admin help?",
+      "Who should I talk to about campus services?",
+      "Where's the office for administrative stuff?"
+    ],
+    "answer": "For general inquiries regarding registration, billing, or student records, please visit the Central Student Helpdesk located on the ground floor of the Student Union Building. The helpdesk is open Monday through Friday, from 8:30 AM to 5:00 PM. For urgent matters outside of these hours, you may submit a support ticket through the university's mobile app or official website."
+  },
+  {
+    "question": "Can I update my personal information, such as my mailing address or phone number?",
+    "variants": [
+      "Can I update my personal information, such as my mailing address or phone number?",
+      "How do I change my address or phone number?",
+      "Can I update my contact info?",
+      "Is there a way to edit my personal details?"
+    ],
+    "answer": "Yes, students are responsible for maintaining accurate contact information. You can update your residential address, emergency contact details, and phone number at any time through the 'Personal Profile' section of the Student Portal. Changes made online are typically updated in the university database within 24–48 hours."
+  },
+  {
+    "question": "What should I do if I lose my student ID card?",
+    "variants": [
+      "What should I do if I lose my student ID card?",
+      "What happens if I lose my student ID?",
+      "If I lose my ID card, what do I do?",
+      "How do I replace a lost student ID?"
+    ],
+    "answer": "If your ID card is lost or stolen, you should immediately report it via the Student Portal to prevent unauthorized use of campus facilities. Once reported, you must visit the Registrar's Office to pay the replacement fee and schedule a new photo session. Your temporary access permissions will be restored once the new card is processed."
   }
 ]

@@ -10,7 +10,7 @@ from google import genai
 from google.genai import types
 from pydub import AudioSegment
 
-from pipeline import answer_question
+from pipeline import MAX_HISTORY_TURNS, answer_question
 
 load_dotenv()
 
@@ -83,22 +83,23 @@ def synthesize(text: str) -> str:
     return out_path
 
 
-def handle_question(audio_path: str):
+def handle_question(audio_path: str, history: list):
     if not audio_path:
-        yield "", "", None, "No audio received"
+        yield "", "", None, "No audio received", history
         return
     t_total = time.perf_counter()
     try:
         question = transcribe(audio_path)
-        yield question, "", None, "Transcribed — finding the answer..."
-        answer = answer_question(question)
-        yield question, answer, None, "Answer ready — generating speech..."
+        yield question, "", None, "Transcribed — finding the answer...", history
+        answer = answer_question(question, history)
+        history = (history + [{"question": question, "answer": answer}])[-MAX_HISTORY_TURNS:]
+        yield question, answer, None, "Answer ready — generating speech...", history
         reply_audio = synthesize(answer)
         elapsed = time.perf_counter() - t_total
         print(f"  [timing] total: {elapsed:.2f}s")
-        yield question, answer, reply_audio, f"Done ({elapsed:.2f}s)"
+        yield question, answer, reply_audio, f"Done ({elapsed:.2f}s)", history
     except Exception as exc:
-        yield "", "", None, f"Error: {exc}"
+        yield "", "", None, f"Error: {exc}", history
 
 
 with gr.Blocks(title="Campus Voice Assistant") as demo:
@@ -118,11 +119,12 @@ with gr.Blocks(title="Campus Voice Assistant") as demo:
     question_text = gr.Textbox(label="Transcribed question", interactive=False)
     answer_text = gr.Textbox(label="Answer text", interactive=False)
     status = gr.Label(label="Status")
+    history = gr.State([])
 
     mic.change(
         handle_question,
-        inputs=mic,
-        outputs=[question_text, answer_text, output_audio, status],
+        inputs=[mic, history],
+        outputs=[question_text, answer_text, output_audio, status, history],
     )
 
 
