@@ -56,7 +56,7 @@ def _translate_to_english(text: str) -> str:
     return response.text.strip()
 
 
-def _retrieve_candidates(question: str, limit: int = 5) -> list:
+def _retrieve_candidates(question: str, limit: int = 12) -> list:
     t = time.perf_counter()
     query_vector = list(_embedding_model.embed([question]))[0]
     result = _qdrant.query_points(
@@ -65,10 +65,21 @@ def _retrieve_candidates(question: str, limit: int = 5) -> list:
         limit=limit,
     )
     print(f"  [timing] qdrant search: {time.perf_counter() - t:.2f}s")
-    candidates = [p for p in result.points if p.score >= SIMILARITY_GRACE_FLOOR][:3]
-    if candidates:
-        print(f"  [info] matched FAQ (score {candidates[0].score:.4f}, {len(candidates)} candidates)")
-    return candidates
+    seen = set()
+    deduped = []
+    for p in result.points:
+        if p.score < SIMILARITY_GRACE_FLOOR:
+            continue
+        key = p.payload["question"]
+        if key in seen:
+            continue
+        seen.add(key)
+        deduped.append(p)
+        if len(deduped) >= 4:
+            break
+    if deduped:
+        print(f"  [info] matched FAQ (score {deduped[0].score:.4f}, {len(deduped)} candidates)")
+    return deduped
 
 
 def _build_faq_block(candidates: list) -> str:
@@ -127,7 +138,11 @@ def _answer_from_context(question: str, history: list[dict]) -> tuple[str, str]:
     return _parse_lang_answer(response.text)
 
 
-def answer_question(question: str, history: list[dict] | None = None) -> tuple[str, str]:
+def _no_match_meta() -> dict:
+    return {"matched_faq": None, "score": None, "fallback": True}
+
+
+def answer_question(question: str, history: list[dict] | None = None) -> tuple[str, str, dict]:
     candidates = _retrieve_candidates(question)
 
     if not candidates:
@@ -139,8 +154,16 @@ def answer_question(question: str, history: list[dict] | None = None) -> tuple[s
     if not candidates:
         if history:
             print("  [info] still no FAQ match, using conversation memory")
-            return _answer_from_context(question, history)
-        return FALLBACK_ANSWER, "en"
+            answer, lang = _answer_from_context(question, history)
+            return answer, lang, _no_match_meta()
+        return FALLBACK_ANSWER, "en", _no_match_meta()
+
+    best = candidates[0]
+    meta = {
+        "matched_faq": best.payload["question"],
+        "score": best.score,
+        "fallback": False,
+    }
 
     prompt = (
         "You are a friendly campus guide. "
@@ -156,10 +179,12 @@ def answer_question(question: str, history: list[dict] | None = None) -> tuple[s
         "write the answer in Devanagari script (देवनागरी), never Romanized "
         "Hinglish. If the user is asking a follow-up that refers to the "
         "earlier conversation (e.g. 'what about on weekends?'), answer "
-        "about that same topic using the context above. If none of the FAQ "
-        "entries actually answer the question, reply with exactly: "
-        "'I'm not sure about that one — ask a senior or check the "
-        "orientation desk.' Do not mention FAQ entries, scores, or that you "
+        "about that same topic using the context above. If some parts of "
+        "the question are not covered by any FAQ entry, answer the parts "
+        "you can and briefly say you don't have that information. Only if "
+        "NO FAQ entry answers any part of the question, reply with "
+        "exactly: 'I'm not sure about that one — ask a senior or check "
+        "the orientation desk.' Do not mention FAQ entries, scores, or that you "
         "used a knowledge base. Use no markdown, bullets, or asterisks. "
         "Sound like you are talking to a student. "
         'Output ONLY strict JSON like {"language": "hi", "answer": "..."} '
@@ -178,7 +203,11 @@ def answer_question(question: str, history: list[dict] | None = None) -> tuple[s
         ),
     )
     print(f"  [timing] llm generation: {time.perf_counter() - t:.2f}s")
-    return _parse_lang_answer(response.text)
+    answer, lang = _parse_lang_answer(response.text)
+    if answer == FALLBACK_ANSWER:
+        meta["fallback"] = True
+        lang = "en"
+    return answer, lang, meta
 
 
 if __name__ == "__main__":
@@ -189,5 +218,5 @@ if __name__ == "__main__":
             break
         if not question:
             continue
-        answer, lang = answer_question(question)
+        answer, lang, _ = answer_question(question)
         print(f"[{lang}] {answer}")

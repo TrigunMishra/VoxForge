@@ -2,5 +2,6 @@ requests
 python-dotenv
 qdrant-client[fastembed]
 google-genai
+pydub
 
 gradio
